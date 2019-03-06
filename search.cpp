@@ -67,3 +67,16 @@ int main()
 
     return 0;
 }
+
+int linearSearch (auto data, auto key)
+{
+	for (unsigned int x = 0; x < data.size(); x ++) 
+	{
+		if (data[x] == key ) 
+		{
+			return x; 
+		}
+		
+	}
+return -1;
+}
